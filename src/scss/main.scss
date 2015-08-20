@@ -1,0 +1,27 @@
+@import "dist/bower_components/bourbon/app/assets/stylesheets/_bourbon.scss";
+@import "dist/bower_components/neat/app/assets/stylesheets/_neat.scss";
+@import "dist/bower_components/bitters/app/assets/stylesheets/_base.scss";
+@import url(http://fonts.googleapis.com/css?family=Shadows+Into+Light);
+
+body {
+  background-color: #000;
+}
+
+.container {
+  @include span-columns(12);
+
+  h1 {
+    font-size: 48px;
+    font-family: 'Shadows Into Light', sans-serif;
+    color: #fff;
+    text-align: center;
+  }
+}
+
+.main {
+  @include span-columns(12);
+}
+
+img {
+  width: 100%;
+}
